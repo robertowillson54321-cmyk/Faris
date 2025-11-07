@@ -70,7 +70,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .product-card {
@@ -144,4 +144,5 @@ cursor: pointer;
 color: white;
   background-color: black;
   padding: 50px;
+  margin-bottom: 0px;
  }
