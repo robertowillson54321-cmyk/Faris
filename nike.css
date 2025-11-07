@@ -140,3 +140,8 @@ cursor: pointer;
  .a{
   color: black;
  }
+ footer{
+color: white;
+  background-color: black;
+  padding: 50px;
+ }
