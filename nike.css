@@ -1,7 +1,7 @@
 nav{
     text-align: center;
     flex-wrap: nowrap;
-    justify-content: space-around;    
+    justify-content: space-between;    
 }
 nav a{
     text-decoration: underline;
@@ -24,7 +24,6 @@ body {
 }
 
 .nike-hero {
-  background-image: url('nike-hero.jpg');
   text-align: center;
   background-size: cover;
   background-position: center;
