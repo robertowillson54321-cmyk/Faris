@@ -1,7 +1,7 @@
 nav{
     text-align: center;
     flex-wrap: nowrap;
-    justify-content: space-around;    
+    justify-content: space-between;    
 }
 nav a{
     text-decoration: underline;
@@ -24,7 +24,6 @@ body {
 }
 
 .nike-hero {
-  background-image: url('nike-hero.jpg');
   text-align: center;
   background-size: cover;
   background-position: center;
@@ -133,10 +132,9 @@ background-color: white;
 color: black;
 cursor: pointer;
  }
- .dd{
-
-  margin-left: 70px;  
- }
+.contact {
+    margin: 20px;
+}
  .a{
   color: black;
  }
@@ -146,3 +144,25 @@ color: white;
   padding: 50px;
   margin-bottom: 0px;
  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+.iframe {
+    width: 100%;
+    height: 600px;
+    border: #1a1a1a solid 2px;
+    border-radius: 5px;
+    box-shadow:  0 2px 5px rgba(0,0,0,0.1);
+}
