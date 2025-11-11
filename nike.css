@@ -72,7 +72,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .product-card {
@@ -139,7 +139,15 @@ cursor: pointer;
 .contact {
     margin: 20px;
 }
-
+ .a{
+  color: black;
+ }
+ footer{
+color: white;
+  background-color: black;
+  padding: 50px;
+  margin-bottom: 0px;
+ }
 table {
     width: 100%;
     border-collapse: collapse;
