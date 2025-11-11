@@ -1,0 +1,40 @@
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  border: 1px solid gray;
+}
+
+.product-img {
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+.product-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.product-desc {
+  color: gray;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+}
+img{
+width: 100px;
+height: 100px
