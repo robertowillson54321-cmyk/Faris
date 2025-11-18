@@ -72,7 +72,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .product-card {
@@ -81,6 +82,7 @@ body {
   padding: 20px;
   width: 250px;
   border: 1px solid gray;
+  flex-wrap: wrap;
 }
 
 .product-img {
